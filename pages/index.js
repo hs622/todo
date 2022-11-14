@@ -13,7 +13,7 @@ export default function Home() {
         <div class="mx-auto max-w-9xl px-4 sm:px-6">
           <div class="flex items-center justify-between border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
             <div class="flex justify-start lg:w-0 lg:flex-1">
-              <a href="#">
+              <a href="/">
                 <span class="sr-only">Your Company</span>
                 <img class="h-8 w-auto sm:h-10" src="favicon.ico" alt="logo" />
               </a>
