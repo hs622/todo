@@ -1,6 +1,6 @@
 import Layout from "@layouts/guest";
 import "@styles/globals.css";
-import "@styles/layouts.css";
+// import "@styles/layouts.css";
 
 function MyApp({ Component, pageProps }) {
   if (Component.getLayout)
@@ -8,9 +8,7 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <>
-      <Layout>
-        <Component {...pageProps} />
-      </Layout>
+      <Component {...pageProps} />
     </>
   );
 }

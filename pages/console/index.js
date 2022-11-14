@@ -13,7 +13,7 @@ export default function index() {
         <link rel="icon" href="/favicon.png" />
       </Head>
       <div className="main">
-        <p style={{ fontSize: "22px" }}>
+        <p className="text-3xl font-bold">
           Please wait a while we set up the console for you...
         </p>
       </div>
