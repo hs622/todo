@@ -3,7 +3,7 @@ import Footer from "@components/Footer";
 
 export default function index() {
   return (
-    <div className="container">
+    <>
       <Head>
         <title>Welcome to console</title>
         <meta
@@ -12,20 +12,15 @@ export default function index() {
         />
         <link rel="icon" href="/favicon.png" />
       </Head>
-      <div className="main">
-        <p className="text-3xl font-bold">
-          Please wait a while we set up the console for you...
-        </p>
-      </div>
-    </div>
+    </>
   );
 }
 
-index.getLayout = function PageLayout(Page) {
-  return (
-    <>
-      {Page}
-      <Footer />
-    </>
-  );
-};
+// index.getLayout = function PageLayout(Page) {
+//   return (
+//     <>
+//       {Page}
+//       <Footer />
+//     </>
+//   );
+// };
