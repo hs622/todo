@@ -32,7 +32,7 @@ export default function ConfirmPassword() {
             <form className="space-y-4 md:space-y-6" action="#">
               <div>
                 <label
-                  for="password"
+                  htmlFor="password"
                   className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
                 >
                   New Password
@@ -48,7 +48,7 @@ export default function ConfirmPassword() {
               </div>
               <div>
                 <label
-                  for="email"
+                  htmlFor="email"
                   className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
                 >
                   Confirm New Password

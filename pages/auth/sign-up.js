@@ -23,7 +23,7 @@ export default function SignUp() {
             <form className="space-y-4 md:space-y-6" action="#">
               <div>
                 <label
-                  for="name"
+                  htmlFor="name"
                   className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
                 >
                   Name
@@ -39,7 +39,7 @@ export default function SignUp() {
               </div>
               <div>
                 <label
-                  for="email"
+                  htmlFor="email"
                   className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
                 >
                   Email
@@ -55,7 +55,7 @@ export default function SignUp() {
               </div>
               <div>
                 <label
-                  for="password"
+                  htmlFor="password"
                   className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
                 >
                   Password
@@ -71,7 +71,7 @@ export default function SignUp() {
               </div>
               <div>
                 <label
-                  for="password"
+                  htmlFor="password"
                   className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
                 >
                   Confirm Password
