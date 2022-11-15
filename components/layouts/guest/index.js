@@ -1,7 +1,7 @@
-import Header from "../../Header";
-import Footer from "../../Footer";
+import Header from "./Header";
+import Footer from "./Footer";
 
-export default function index({ children }) {
+export default function GuestLayout({ children }) {
   return (
     <>
       <Header />

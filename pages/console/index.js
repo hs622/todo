@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Footer from "@components/Footer";
+import AuthLayout from "@layouts/auth";
 
 export default function index() {
   return (
@@ -10,17 +10,18 @@ export default function index() {
           name="description"
           content="Resoucres management tool for client"
         />
-        <link rel="icon" href="/favicon.png" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
+
+      <div>main</div>
     </>
   );
 }
 
-// index.getLayout = function PageLayout(Page) {
-//   return (
-//     <>
-//       {Page}
-//       <Footer />
-//     </>
-//   );
-// };
+index.getLayout = function PageLayout(Page) {
+  return (
+    <AuthLayout>
+      <>{Page}</>
+    </AuthLayout>
+  );
+};
