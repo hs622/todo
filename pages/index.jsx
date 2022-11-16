@@ -8,7 +8,9 @@ export default function Home() {
         <meta name="description" content="Welcome todo description" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="">page</div>
+      <div className="h-[calc(100vh-164px)] md:h-[calc(100vh-144px)]">
+        main page
+      </div>
     </>
   );
 }
